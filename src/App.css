@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.all-tiles {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  /* margin: 0 auto; */
+}
+
+.tileOuter {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10x;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.tileImg {
+  height: 40%;
+  width: 50;
+  overflow: hidden;
+}
+.image {
+  height: 100%;
+  width: 95%;
+  border-radius: 10px;
 }
